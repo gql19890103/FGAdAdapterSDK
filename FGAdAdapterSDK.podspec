@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FGAdAdapterSDK"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "FGAdAdapterSDK 适配各个聚合广告平台"
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
                          FGAdAdapterSDK 是一个适配各个聚合广告平台的SDK。
                        DESC
 
-  spec.homepage     = "https://gitee.com/guan-dalong/FGAdAdapterSDK"
+  spec.homepage     = "https://gitee.com/guan-dalong/fgad-adapter-sdk"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -77,8 +77,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  # 使用GitHub仓库
-    spec.source = { :http => "https://gitee.com/guan-dalong/FGAdAdapterSDK/raw/1.0.1/FGAdAdapterSDK.zip" }
+  # 使用GitHub仓库 https://gitee.com/guan-dalong/fgad-adapter-sdk/raw/1.0.0/FGAdAdapterSDK.zip
+    spec.source = { :http => "https://gitee.com/guan-dalong/fgad-adapter-sdk/raw/1.0.2/FGAdAdapterSDK.zip" }
   
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
 
   # 使用XCFramework
   spec.vendored_frameworks = "FGAdAdapterSDK.xcframework"
-  spec.source_files = "FGAdAdapterSDK/**/*"
+  #spec.source_files = "FGAdAdapterSDK/**/*"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
