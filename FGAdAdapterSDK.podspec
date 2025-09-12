@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FGAdAdapterSDK"
-  spec.version      = "1.1.2"
-  spec.summary      = "FGAdAdapterSDK 适配各个聚合广告平台"
+  spec.version      = "1.1.4"
+  spec.summary      = "FGAdAdapterSDK 适配Beizi聚合广告平台"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                         FGAdAdapterSDK 是一个适配各个聚合广告平台的SDK。
+                         FGAdAdapterSDK 是一个适配Beizi聚合广告平台的SDK。
                        DESC
 
   spec.homepage     = "https://gitee.com/guan-dalong/fgad-adapter-sdk"
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #
 
   # 使用GitHub仓库 https://gitee.com/guan-dalong/fgad-adapter-sdk/raw/1.0.0/FGAdAdapterSDK.zip
-    spec.source = { :http => "https://gitee.com/guan-dalong/fgad-adapter-sdk/raw/1.1.2/FGAdAdapterSDK.zip" }
+    spec.source = { :http => "https://gitee.com/guan-dalong/fgad-adapter-sdk/raw/1.1.4/FGAdAdapterSDK.zip" }
   
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
 
   # 使用XCFramework
   spec.vendored_frameworks = "FGAdAdapterSDK.xcframework"
-  #spec.source_files = "FGAdAdapterSDK/**/*"
+  # spec.source_files = "FGAdAdapterSDK/BZAdapter/**/*"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -144,7 +144,7 @@ Pod::Spec.new do |spec|
   # spec.dependency 'SDWebImage', '~> 5.0'
   
   spec.dependency 'AMPSAdSDK', '~> 5.1.0.31'
-  spec.dependency 'TimeAdSDK', '~> 1.2.0'
+  spec.dependency 'TimeAdSDK', '~> 1.2.2'
   
   # 设置本地开发时可以直接指定本地库
   spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
