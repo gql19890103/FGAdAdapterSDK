@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FGAdAdapterSDK"
-  spec.version      = "1.1.5"
+  spec.version      = "1.1.6"
   spec.summary      = "FGAdAdapterSDK 适配Beizi聚合广告平台"
 
   # This description is used to generate tags and improve search results.
@@ -64,7 +64,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  spec.ios.deployment_target = "13.0"
+  spec.ios.deployment_target = "11.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #
 
   # 使用GitHub仓库 https://gitee.com/guan-dalong/fgad-adapter-sdk/raw/1.0.0/FGAdAdapterSDK.zip
-    spec.source = { :http => "https://gitee.com/guan-dalong/fgad-adapter-sdk/raw/1.1.5/FGAdAdapterSDK.zip" }
+    spec.source = { :http => "https://gitee.com/guan-dalong/fgad-adapter-sdk/raw/1.1.6/FGAdAdapterSDK.zip" }
   
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -144,7 +144,7 @@ Pod::Spec.new do |spec|
   # spec.dependency 'SDWebImage', '~> 5.0'
   
   spec.dependency 'AMPSAdSDK', '~> 5.1.0.31'
-  spec.dependency 'TimeAdSDK', '~> 1.2.4'
+  spec.dependency 'TimeAdSDK', '~> 1.2.6'
   
   # 设置本地开发时可以直接指定本地库
   spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
